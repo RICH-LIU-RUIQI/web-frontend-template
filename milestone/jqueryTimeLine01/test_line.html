@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/layout.css" />
+  <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="time-line-box">
+  <ul class="layui-timeline">
+    <!--        2018年-->
+    <li class="layui-timeline-item">
+        <div class="layui-timeline-content layui-text">
+          <dl>
+            <dt class="layui-timeline-title">2018年</dt>
+            <dd>2018年位于四川成都的生产研发中心成立</dd>
+          </dl>
+        </div>
+    </li>
+    <!--        2019年-->
+    <li class="layui-timeline-item">
+        <div class="layui-timeline-content layui-text">
+          <dl>
+            <dt class="layui-timeline-title">2019年</dt>
+            <dd>9月14日，我司取得“腾实新材”注册商标</dd>
+          </dl>
+        </div>
+      </li>
+    <!--        2021年-->
+    <li class="layui-timeline-item">
+        <div class="layui-timeline-content layui-text">
+          <dl>
+            <dt class="layui-timeline-title">2021年</dt>
+            <dd>6月取得一项实用新型专利</dd>
+            <dd>8月取得多项实用新型专利</dd>
+            <dd>9月取得一项实用新型专利</dd>
+          </dl>
+        </div>
+      </li>
+    <!--        2022年-->
+    <li class="layui-timeline-item"取得多项发明专利>
+        <div class="layui-timeline-content layui-text">
+          <dl>
+            <dt class="layui-timeline-title">2022年</dt>
+            <dd>3月取得“质量管理体系认证”</dd>
+            <dd>3月取得“职业健康安全管理体系认证”</dd>
+            <dd>12月取得“危化品经营许可证”</dd>
+          </dl>
+        </div>
+      </li>
+    </li>
+  </ul>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+<script>
+  $(function () {
+    var w = window.innerWidth;
+    var i;
+    $(function () {
+      $(".swiper-container li").each(function (index) {
+        i = index + 1;
+        if (parseInt($(".layui-timeline").css('padding-top')) <= $(this).find('dl').height() && index % 2 != 0) {
+          $(".layui-timeline").css('padding-top', $(this).find('dl').height() + 10);
+        }
+        ;
+      });
+      var swiper = new Swiper('.swiper-container', {
+        roundLengths: true,
+        slidesPerView: 'auto',
+        freeMode: true
+      });
+      // 跳转到最后一个
+      swiper.slideTo(i, 1000, false);
+    });
+  });
+</script>
+
+</body>
+</html>

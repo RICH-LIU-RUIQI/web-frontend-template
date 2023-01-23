@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HeroBiz Bootstrap Template - Home 1</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!--  &lt;!&ndash; Google Fonts &ndash;&gt;-->
+<!--  <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">-->
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <!-- <link href="assets/css/variables-blue.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+<!--  gaode map-->
+  <meta name="keywords" content="高德地图,DIY地图,高德地图生成器">
+  <meta name="description" content="高德地图，DIY地图，自己制作地图，生成自己的高德地图">
+  <title>高德地图 - DIY我的地图</title>
+  <style>
+     body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 600px; }
+     .my-map { margin: auto auto; width: 800px; height: 400px;} .my-map .icon { background: url(//a.amap.com/lbs-dev-yuntu/static/web/image/tools/creater/marker.png) no-repeat; } .my-map .icon-cir { height: 31px; width: 28px; } .my-map .icon-cir-red { background-position: -11px -5px; }
+     .amap-container{height: 100%;}
+     .myinfowindow{width: 240px;min-height: 50px;}
+     .myinfowindow h5{ height: 20px; line-height: 20px; overflow: hidden; font-size: 14px; font-weight: bold; width: 220px; text-overflow: ellipsis; word-break: break-all; white-space: nowrap; }
+     .myinfowindow div{ margin-top: 10px; min-height: 40px; line-height: 20px; font-size: 13px; color: #6f6f6f; }
+   </style>
+<!--  for timeline-->
+<!--  <link rel="stylesheet" type="text/css" href="assets/css/timeline-style.css">-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
+
+  <!-- =======================================================
+  * Template Name: HeroBiz - v2.3.1
+  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+<!--  自己补充-->
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+<!--      size 更大-->
+      <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0" style="width: 300%">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+         <img src="assets/img/logo-ts.jpg" style="opacity: .8">
+<!--        <h1>HeroBiz<span>.</span></h1>-->
+      </a>
+
+      <nav id="navbar" class="navbar" >
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html#about">关于我们</a></li>
+<!--          <li><a class="nav-link scrollto" href="index.html#services">公司服务</a></li>-->
+          <li><a class="nav-link scrollto" href="index.html#features">产品一览</a></li>
+          <li><a class="nav-link scrollto" href="index.html#recent-blog-posts">腾实之路</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact"
+                 style="margin-right: 200px">联系我们</a></li>
+<!--          <li style="margin-left: 300px">-->
+<!--            <span>-->
+<!--            专注技术与服务-->
+<!--            </span>-->
+<!--          </li>-->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+<!--      <a class="btn-getstarted scrollto" href="index.html#about">Get Started</a>-->
+    </div>
+
+  </header><!-- End Header -->
+
+  <section id="hero-animated" class="hero-animated d-flex align-items-center"
+           style="background-color: rgba(206,206,208,0.7); padding-bottom: 10px">
+
+<!--    <div class="container d-flex flex-column" data-aos="zoom-out">-->
+    <div class="container d-flex flex-column justify-content-center
+      align-items-center text-center position-relative">
+<!--      <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid ">-->
+<!--      <h2>Welcome to <span>HeroBiz</span></h2>-->
+      <div class="row">
+        <div id='hero-left' class="col-md-7" style="display: flex; align-content: center">
+          <img src="assets/img/cover.jpg" class="img-fluid" style="height: 90%">
+        </div>
+        <div id='hero-right' class="col-md-5">
+          <div id="hero-ver">
+<!--            <h3 style="color: #f3ac7b">专注技术与服务</h3>-->
+            <h4 style="color: #fca53b">专注技术与服务</h4>
+            <h2>腾实实业</h2>
+            <span>Chongqing Tengshi Industrial Co. Ltd</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services" style="margin-top: 80px">
+      <div class="container" >
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" >
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-chevron-double-down icon"></i></div>
+              <h4><span class="stretched-link">粘合剂</span></h4>
+              <p>我司粘合剂产品广泛应用于纸品、军工、汽车、木工、电子、香烟等行业</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" >
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-chevron-double-down icon"></i></div>
+              <h4><span class="stretched-link">化肥肥料</span></h4>
+              <p>我司提供各类化肥肥料</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" >
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-chevron-double-down icon"></i></div>
+              <h4><span class="stretched-link">化工原材料</span></h4>
+              <p>我司提供各类塑料粒料产品（各类PVC，PP，PET粒料）</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex"  data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-chevron-double-down icon"></i></div>
+              <h4><span class="stretched-link">特殊化学品</span></h4>
+              <p>我司提供水处理化学品，其广泛应用于工业水处理的各个领域</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>关于我们</h2>
+          <p style="text-align: center">
+            匠心铸造品牌，服务创造美好
+          </p>
+          <p style="text-align: center">
+            腾达行业标杆，实干成就未来
+          </p>
+        </div>
+
+        <div class="row g-4 g-lg-4">
+
+          <div class="col-lg-4">
+            <div class="container">
+              <img src="assets/img/about-us.png" class="img-fluid" alt="" style="height: 60%">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+<!--            <h3 class="pt-0 pt-lg-5">-->
+<!--              Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero-->
+<!--            </h3>-->
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">公司简介</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">企业文化</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">社会责任</a></li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+
+                <p class="greek" style="font-size: 20px">
+                  重庆腾实实业有限公司是致力于粘合剂，功能涂层，特殊化学品的研发，
+                  生产和销售以及技术服务的一体化专业公司。产品广泛应用于烟草，
+                  汽车，纸品，木工，食品等粘合剂市场，及化肥肥料等各行业上下游领域。
+                </p>
+
+                <p style="font-size: 20px; margin-top: 40px">
+                  我们持续关注客户的需求，通过不断创新的产品，完善的服务，为客户量身定制全面系统的解决方案。
+                  在不断努力和客户信赖的增长中，与高端制造业开展创新合作，努力做好中国制造业的支持者和参与者。
+                </p>
+
+                <p style="font-size: 20px; margin-top: 40px">
+                  山高人为峰。未来，我们期望以高品质的产品，绿色环保的理念，优质的服务，
+                  不断创新的技术，成为最受客户欢迎的服务商，与客户共同进步，成长为技术领先与产品领先型企业。
+                </p>
+
+<!--                <div class="d-flex align-items-center mt-4">-->
+<!--                  <i class="bi bi-check2"></i>-->
+<!--                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>-->
+<!--                </div>-->
+<!--                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>-->
+
+<!--                <div class="d-flex align-items-center mt-4">-->
+<!--                  <i class="bi bi-check2"></i>-->
+<!--                  <h4>Incidunt non veritatis illum ea ut nisi</h4>-->
+<!--                </div>-->
+<!--                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>-->
+
+<!--                <div class="d-flex align-items-center mt-4">-->
+<!--                  <i class="bi bi-check2"></i>-->
+<!--                  <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>-->
+<!--                </div>-->
+<!--                <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>-->
+
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+
+                <div class="d-flex align-items-center mt-4" style="font-size: 20px;">
+                  <i class="bi bi-check2"></i>
+                  <h4>责任</h4>
+                </div>
+                <p style="font-size: 18px; margin-left: 60px; margin-top: 10px;">
+                  以诚信立足市场，以诚信谋求发展，以诚信赢得未来
+                </p>
+
+                <div class="d-flex align-items-center mt-4" style="font-size: 20px;">
+                  <i class="bi bi-check2"></i>
+                  <h4>尊重</h4>
+                </div>
+                <p style="font-size: 18px; margin-left: 60px; margin-top: 10px;">
+                  尊重员工-为员工创造机会
+                </p>
+                <p style="font-size: 18px; margin-left: 60px">
+                  尊重客户-为客户创造价值
+                </p>
+                <p style="font-size: 18px; margin-left: 60px">
+                  尊重社会-为大众提供绿色环保的产品
+                </p>
+
+                <div class="d-flex align-items-center mt-4" style="font-size: 20px;">
+                  <i class="bi bi-check2"></i>
+                  <h4>创新</h4>
+                </div>
+                <p style="font-size: 18px; margin-left: 60px; margin-top: 10px;">
+                   不断创新技术/市场/服务，为客户提供为其量身定制的系统解决方案
+                </p>
+
+                <div class="d-flex align-items-center mt-4" style="font-size: 20px;">
+                  <i class="bi bi-check2"></i>
+                  <h4>感恩</h4>
+                </div>
+                <p style="font-size: 18px; margin-left: 60px; margin-top: 10px;">
+                  以感恩的心面对世界，以分享的心回报社会
+                </p>
+
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+                <p class="greek" style="font-size: 20px">
+                  可持续发展，确保我们的产品和服务，符合最高标准的关于环保的法律法规的相关规定
+                </p>
+
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="section-header">
+          <h2>合作伙伴</h2>
+      </div>
+      <div class="container">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-3.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-4.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-12.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-13.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/c-6.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-7.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-8.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-9.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-10.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/c-11.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>我们的产品</h2>
+        </div>
+        <ul class="nav nav-tabs row gy-4 d-flex">
+
+          <li class="nav-item col-6 col-md-4 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <i class="bi bi-command color-green"></i>
+              <h4>化工原材料</h4>
+            </a>
+          </li><!-- End Tab 1 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-3">
+            <a class="nav-link " data-bs-toggle="tab" data-bs-target="#tab-2">
+              <i class="bi bi-command color-orange"></i>
+              <h4>化肥肥料等产品</h4>
+            </a>
+          </li><!-- End Tab 2 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <i class="bi bi-command color-pink"></i>
+              <h4>粘合剂</h4>
+            </a>
+          </li><!-- End Tab 3 Nav -->
+
+          <li class="nav-item col-6 col-md-4 col-lg-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <i class="bi bi-command color-red"></i>
+              <h4>特殊功能化学品</h4>
+            </a>
+          </li><!-- End Tab 4 Nav -->
+
+
+        </ul>
+
+
+        <div class="tab-content">
+          <!--          化工原材料-->
+          <div class="tab-pane services" id="tab-1">
+            <div class="container">
+
+              <div class="row gy-5">
+                  <!--                PVC & 危险化学品-->
+                <div class="row justify-content-around" style="margin-top: 30px">
+                  <!--                PVC-->
+                  <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/plastic.jfif" class="img-fluid" alt="" style="min-height: 250px">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>塑料粒料</h3>
+                        </a>
+                        <p style="text-align: center;">
+                          提供提供各类PVC，PP，PET粒料
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                  <!--                水处理化学品-->
+                  <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/danger-chemical.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>危险化学品</h3>
+                        </a>
+                        <p style="text-align: center;">提供危化品经营许可证范围内的各类危化品</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                </div>
+              </div>
+            </div>
+          </div>
+  <!--          化肥肥料-->
+          <div class="tab-pane services" id="tab-2">
+              <div class="container">
+
+                <div class="row gy-5">
+                  <!--                硫酸铵-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/so4.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>硫酸铵</h3>
+                        </a>
+                        <p style="text-align: center;">主营己内酰胺级，焦化级等各类硫酸铵</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                氯化铵-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/cl.jpg" class="img-fluid">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>氯化铵</h3>
+                        </a>
+                        <p style="text-align: center;">农用氯化铵，主要用于复合肥原料及农业施肥</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                钾肥-->
+                  <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/K.jpeg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>钾肥</h3>
+                        </a>
+                        <p style="text-align: center;">主营青海盐湖，青海藏格钾肥以及俄罗斯红白钾肥
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                尿素-->
+                  <div class="row justify-content-around">
+                    <div class="col-xl-4 col-md-6">
+                      <div class="service-item">
+                        <div class="img">
+                          <img src="assets/img/niaosu.jpeg" class="img-fluid" alt="">
+                        </div>
+                        <div class="details position-relative">
+                          <div class="icon" style="margin-bottom: 5px">
+                            <i class="bi bi-activity"></i>
+                          </div>
+                          <a href="#" class="stretched-link" style="margin-top: -10px">
+                            <h3>尿素</h3>
+                          </a>
+                          <p style="text-align: center;">主营复合肥业务
+                          </p>
+                        </div>
+                      </div>
+                    </div><!-- End Service Item -->
+                  </div>
+
+
+                </div>
+              </div>
+          </div>
+  <!--          粘合剂-->
+          <div class="tab-pane active show services" id="tab-3">
+              <div class="container">
+
+                <div class="row gy-5">
+                  <!--                汽车-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/car.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>汽车</h3>
+                        </a>
+                        <p style="text-align: center;">适用于汽车内饰、顶棚、座椅、车灯及各零部件的粘接</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                烟草-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/cig.jpg" class="img-fluid">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>烟草</h3>
+                        </a>
+                        <p style="text-align: center;">适用于卷烟成型过程中的搭扣，接嘴以及铝箔，烟盒，条盒等的粘结</p>
+                        <p style="text-align: center; font-weight: bold;">产品包括：搭扣胶，接嘴胶，包装胶，铝箔胶，铝转移胶</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                纸品-->
+                  <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/cap.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>纸品</h3>
+                        </a>
+                        <p style="text-align: center;">适用于酒盒、手机盒、包装盒的成型粘接，
+                            如：纸、塑、复合膜纸、上光纸盒等
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+  <!--                电子与木工-->
+                  <div class="row justify-content-around" style="margin-top: 30px">
+                    <!--                电子-->
+                    <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ece.jpg" class="img-fluid" alt="" style="min-height: 250px">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>电子</h3>
+                        </a>
+                        <p style="text-align: center;">
+                          适用于适用于手机、平板电脑等电子产品屏
+                          幕及各部件的贴合组装，配合点胶机
+                          使用。
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                    <!--                木工-->
+                    <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/wood.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>木工</h3>
+                        </a>
+                        <p style="text-align: center;">适用于压板、真空吸塑、贴皮、封边、包覆以及组装等操作中</p>
+                        <p style="text-align: center; font-weight: bold;">产品包括：水基胶，PUR，热熔胶等</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                  </div>
+
+
+                </div>
+              </div>
+          </div>
+            <!--          特殊化学品 包含涂层 + 水处理化学品 -->
+          <div class="tab-pane services" id="tab-4">
+              <div class="container">
+
+                <div class="row gy-5">
+                  <!--                纯水性涂层-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ser-che/img-1.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>纯水性涂层</h3>
+                        </a>
+                        <p style="text-align: center;">提供防水涂层，适用于一次性纸杯、冷链包装等产品</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                上交系统-->
+                  <div class="col-xl-4 col-md-6" >
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ser-che/img-2.jpg" class="img-fluid">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>上胶系统免洗防污涂层</h3>
+                        </a>
+                        <p style="text-align: center;">适用于上胶系统、食品包装以及机密物品的纸塑纸托</p>
+                        <p style="text-align: center; font-weight: bold;">产品包括：上胶系统免洗防污涂层，防水防油脂涂层，防刮擦划伤涂层</p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                防腐防污-->
+                  <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ser-che/img-3.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon" style="margin-bottom: 5px">
+                          <i class="bi bi-activity"></i>
+                        </div>
+                        <a href="#" class="stretched-link" style="margin-top: -10px">
+                          <h3>防腐防污哑光涂层</h3>
+                        </a>
+                        <p style="text-align: center;">适用于于军工或民用设备上，防污防腐功能强大，同时保证设备表面的低光泽度
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!--                剥离 水处理-->
+                  <div class="row justify-content-around" style="margin-top: 30px">
+                    <!--                水性易剥离-->
+                    <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ser-che/img-4.jpg" class="img-fluid" alt="" style="min-height: 250px">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>水性易剥离遮蔽保护涂层</h3>
+                        </a>
+                        <p style="text-align: center;">
+                          该产品具有纯水性且容易剥离的特性
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                    <!--                水处理化学品-->
+                    <div class="col-xl-4 col-md-6">
+                    <div class="service-item">
+                      <div class="img">
+                        <img src="assets/img/ser-che/img-5.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="details position-relative">
+                        <div class="icon">
+                          <i class="bi bi-broadcast"></i>
+                        </div>
+                        <a href="#" class="stretched-link">
+                          <h3>水处理化学品</h3>
+                        </a>
+                        <p style="text-align: center;">适用于工业用水处理的各个领域</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div><!-- End Service Item -->
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-blog-posts">
+      <div class="section-header">
+        <h2>腾实之路</h2>
+      </div>
+
+<!--      <ul id='timeline'>-->
+<!--        <li class='entry'>-->
+<!--            <input checked='checked' class='radio' id='trigger5' name='trigger' type='radio'>-->
+<!--            <label for='trigger5'>-->
+<!--          <span>-->
+<!--            生产研发中心创立-->
+<!--          </span>-->
+<!--            </label>-->
+<!--            <span class='date'>2018</span>-->
+<!--            <span class='circle'></span>-->
+<!--            <div class='content' style="position: absolute;top: -450px;">-->
+<!--              <h3>2018年，我司位于四川成都的生产研发中心成立</h3>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class='entry'>-->
+<!--            <input class='radio' id='trigger4' name='trigger' type='radio'>-->
+<!--            <label for='trigger4'>-->
+<!--          <span>-->
+<!--            商标注册成功-->
+<!--          </span>-->
+<!--            </label>-->
+<!--            <span class='date'>2019</span>-->
+<!--            <span class='circle'></span>-->
+<!--            <div class='content' style="position: absolute;top: -450px;">-->
+<!--              <h3>2019年9月，我司取得”腾实新材“注册商标</h3>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class='entry'>-->
+<!--            <input class='radio' id='trigger3' name='trigger' type='radio'>-->
+<!--            <label for='trigger3'>-->
+<!--          <span>-->
+<!--            取得发明专利-->
+<!--          </span>-->
+<!--            </label>-->
+<!--            <span class='date'>2021</span>-->
+<!--            <span class='circle'></span>-->
+<!--            <div class='content' style="position: absolute;top: -450px;">-->
+<!--              <h3>2021年我司取得多项发明专利</h3>-->
+<!--              <p>-->
+<!--                6月取得一项实用新型专利-->
+<!--              </p>-->
+<!--              <p>-->
+<!--                8月取得多项实用新型专利-->
+<!--              </p>-->
+<!--              <p>-->
+<!--                9月取得一项实用新型专利-->
+<!--              </p>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class='entry'>-->
+<!--            <input class='radio' id='trigger2' name='trigger' type='radio'>-->
+<!--            <label for='trigger2'>-->
+<!--          <span>-->
+<!--            取得多项国家认证资质-->
+<!--          </span>-->
+<!--            </label>-->
+<!--            <span class='date'>2022</span>-->
+<!--            <span class='circle'></span>-->
+<!--            <div class='content' style="position: absolute;top: -450px;">-->
+<!--              <h3>2022年我司取得多项国家级认证</h3>-->
+<!--              <p>-->
+<!--                3月取得“质量管理体系认证”及“职业健康安全管理体系认证”-->
+<!--              </p>-->
+<!--              <p>-->
+<!--                12月取得“危化品经营许可证”-->
+<!--              </p>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--      </ul>-->
+      <div class="container-fluid" style="text-align: center;">
+        <iframe src="assets/static/time-line.html" id="iframeContent"></iframe>
+      </div>
+
+
+    </section><!-- End Recent Blog Posts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>联系我们</h2>
+          <p>始终专注技术与服务，致力于为您提供全面的解决方案</p>
+        </div>
+
+      </div>
+      <div class="container">
+
+        <div class="row gy-5 gx-lg-5">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <h3>重庆腾实实业有限公司</h3>
+              <p>Chongqing Tengshi Industry Co. Ltd</p>
+
+              <div class="info-item d-flex">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h4>地址：</h4>
+                  <p>重庆市渝北区仙桃街道数据谷中路 107 号 18 层</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h4>Email:</h4>
+                  <p>ts_cq@hotmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+                <i class="bi bi-phone flex-shrink-0"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>西区：18623458225</p>
+                  <p>东区：13320239518</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div id="map-container">
+            </div>
+<!--            </div>-->
+<!--&lt;!&ndash;              <script src="//webapi.amap.com/maps?v=1.3&key=e3c2bdaa98861663720815f08a12b322"></script>&ndash;&gt;-->
+<!--            </div>&lt;!&ndash; End Google Maps &ndash;&gt;-->
+          </div>
+        </div><!-- End Contact Form -->
+
+      </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-legal text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Tengshi Industrial Co. Ltd</span></strong>.
+          </div>
+          <p>All Rights Reserved</p>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="#" class="twitter"><i class="bi bi-wechat"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--  <script src="assets/vendor/aos/aos.js"></script>-->
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<!--  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>-->
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!--  <script src="assets/vendor/php-email-form/validate.js"></script>-->
+  <!-- Template Main JS File & Gaode Map -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&key=b546f274c26f583b526b2db088ebf647"></script>
+  <script src="assets/js/gaode_map.js"></script>
+
+
+</body>
+
+</html>
